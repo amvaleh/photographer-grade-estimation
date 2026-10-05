@@ -104,3 +104,8 @@ python src/export_model.py --out models/holdout --train-before 2023-01-01 && pyt
 | `results/` | aggregate metrics (see its README) |
 
 The commercial serving layer (API, web page, Docker, deployment) is in a separate private repository.
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The license covers the code only: the training data and the trained model
+are not part of this repository and are not licensed or released.
