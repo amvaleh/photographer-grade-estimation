@@ -1,0 +1,17 @@
+# NOTHING derived from photographers or the trained model may ever be committed.
+# (gitignore has no inline comments: keep every comment on its own line.)
+data/
+models/
+# the private serving repo lives in service/ (a separate git repository)
+service/
+.venv/
+*.csv
+*.tsv
+*.npz
+*.npy
+*.pt
+*.pkl
+*.log
+nohup.out
+__pycache__/
+.DS_Store

@@ -1,0 +1,138 @@
+{
+ "temporal": {
+  "profile only (no photos)": {
+   "n": 369,
+   "qwk": 0.409,
+   "qwk_ci": [
+    0.32,
+    0.494
+   ],
+   "mae_steps": 0.808,
+   "acc": 0.388,
+   "within1": 0.851
+  },
+  "photo MLP, mean score": {
+   "n": 369,
+   "qwk": 0.487,
+   "qwk_ci": [
+    0.407,
+    0.549
+   ],
+   "mae_steps": 0.802,
+   "acc": 0.355,
+   "within1": 0.862
+  },
+  "photo MLP, score stats": {
+   "n": 369,
+   "qwk": 0.537,
+   "qwk_ci": [
+    0.463,
+    0.602
+   ],
+   "mae_steps": 0.756,
+   "acc": 0.374,
+   "within1": 0.883
+  },
+  "photos + profile": {
+   "n": 369,
+   "qwk": 0.574,
+   "qwk_ci": [
+    0.494,
+    0.642
+   ],
+   "mae_steps": 0.659,
+   "acc": 0.463,
+   "within1": 0.9
+  },
+  "photos(expertise-aware)": {
+   "n": 369,
+   "qwk": 0.524,
+   "qwk_ci": [
+    0.455,
+    0.579
+   ],
+   "mae_steps": 0.775,
+   "acc": 0.352,
+   "within1": 0.889
+  },
+  "photos(expertise-aware) + profile": {
+   "n": 369,
+   "qwk": 0.575,
+   "qwk_ci": [
+    0.492,
+    0.642
+   ],
+   "mae_steps": 0.675,
+   "acc": 0.442,
+   "within1": 0.905
+  }
+ },
+ "cv": {
+  "profile only (no photos)": {
+   "n": 2451,
+   "qwk": 0.456,
+   "qwk_ci": [
+    0.419,
+    0.489
+   ],
+   "mae_steps": 0.65,
+   "acc": 0.453,
+   "within1": 0.909
+  },
+  "photo MLP, mean score": {
+   "n": 2451,
+   "qwk": 0.575,
+   "qwk_ci": [
+    0.549,
+    0.601
+   ],
+   "mae_steps": 0.591,
+   "acc": 0.476,
+   "within1": 0.94
+  },
+  "photo MLP, score stats": {
+   "n": 2451,
+   "qwk": 0.599,
+   "qwk_ci": [
+    0.571,
+    0.625
+   ],
+   "mae_steps": 0.488,
+   "acc": 0.562,
+   "within1": 0.953
+  },
+  "photos + profile": {
+   "n": 2451,
+   "qwk": 0.613,
+   "qwk_ci": [
+    0.586,
+    0.637
+   ],
+   "mae_steps": 0.517,
+   "acc": 0.54,
+   "within1": 0.947
+  },
+  "photos(expertise-aware)": {
+   "n": 2451,
+   "qwk": 0.591,
+   "qwk_ci": [
+    0.563,
+    0.62
+   ],
+   "mae_steps": 0.507,
+   "acc": 0.552,
+   "within1": 0.945
+  },
+  "photos(expertise-aware) + profile": {
+   "n": 2451,
+   "qwk": 0.609,
+   "qwk_ci": [
+    0.584,
+    0.636
+   ],
+   "mae_steps": 0.513,
+   "acc": 0.545,
+   "within1": 0.947
+  }
+ }
+}

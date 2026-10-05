@@ -1,0 +1,83 @@
+{
+ "temporal": {
+  "majority class": {
+   "n": 369,
+   "qwk": 0.0,
+   "qwk_ci": [
+    0.0,
+    0.0
+   ],
+   "mae_steps": 1.035,
+   "acc": 0.26,
+   "within1": 0.78
+  },
+  "metadata only": {
+   "n": 369,
+   "qwk": 0.228,
+   "qwk_ci": [
+    0.142,
+    0.308
+   ],
+   "mae_steps": 0.856,
+   "acc": 0.336,
+   "within1": 0.824
+  },
+  "images only": {
+   "n": 369,
+   "qwk": 0.402,
+   "qwk_ci": [
+    0.311,
+    0.49
+   ],
+   "mae_steps": 0.737,
+   "acc": 0.398,
+   "within1": 0.892
+  },
+  "images + metadata": {
+   "n": 369,
+   "qwk": 0.432,
+   "qwk_ci": [
+    0.35,
+    0.516
+   ],
+   "mae_steps": 0.764,
+   "acc": 0.382,
+   "within1": 0.873
+  }
+ },
+ "cv": {
+  "metadata only": {
+   "n": 2451,
+   "qwk": 0.394,
+   "qwk_ci": [
+    0.358,
+    0.426
+   ],
+   "mae_steps": 0.643,
+   "acc": 0.495,
+   "within1": 0.878
+  },
+  "images only": {
+   "n": 2451,
+   "qwk": 0.507,
+   "qwk_ci": [
+    0.475,
+    0.533
+   ],
+   "mae_steps": 0.695,
+   "acc": 0.404,
+   "within1": 0.911
+  },
+  "images + metadata": {
+   "n": 2451,
+   "qwk": 0.528,
+   "qwk_ci": [
+    0.499,
+    0.553
+   ],
+   "mae_steps": 0.6,
+   "acc": 0.478,
+   "within1": 0.93
+  }
+ }
+}

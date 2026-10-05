@@ -1,0 +1,81 @@
+{
+ "temporal": {
+  "profile only (no photos)": {
+   "n": 385,
+   "qwk": 0.381,
+   "qwk_ci": [
+    0.292,
+    0.474
+   ],
+   "mae_steps": 0.878,
+   "acc": 0.353,
+   "within1": 0.826
+  },
+  "photo MLP, mean score": {
+   "n": 385,
+   "qwk": 0.505,
+   "qwk_ci": [
+    0.433,
+    0.576
+   ],
+   "mae_steps": 0.717,
+   "acc": 0.405,
+   "within1": 0.888
+  },
+  "photo MLP, score stats": {
+   "n": 385,
+   "qwk": 0.496,
+   "qwk_ci": [
+    0.415,
+    0.567
+   ],
+   "mae_steps": 0.766,
+   "acc": 0.366,
+   "within1": 0.878
+  },
+  "mean score + profile (count-free)": {
+   "n": 385,
+   "qwk": 0.496,
+   "qwk_ci": [
+    0.417,
+    0.573
+   ],
+   "mae_steps": 0.73,
+   "acc": 0.41,
+   "within1": 0.888
+  },
+  "photos + profile": {
+   "n": 385,
+   "qwk": 0.484,
+   "qwk_ci": [
+    0.412,
+    0.558
+   ],
+   "mae_steps": 0.758,
+   "acc": 0.39,
+   "within1": 0.878
+  },
+  "photos(expertise-aware)": {
+   "n": 385,
+   "qwk": 0.474,
+   "qwk_ci": [
+    0.392,
+    0.548
+   ],
+   "mae_steps": 0.73,
+   "acc": 0.397,
+   "within1": 0.891
+  },
+  "photos(expertise-aware) + profile": {
+   "n": 385,
+   "qwk": 0.482,
+   "qwk_ci": [
+    0.394,
+    0.556
+   ],
+   "mae_steps": 0.727,
+   "acc": 0.421,
+   "within1": 0.881
+  }
+ }
+}

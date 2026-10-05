@@ -1,0 +1,7 @@
+torch>=2.4
+torchvision>=0.19
+transformers>=4.45
+pillow>=10
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
