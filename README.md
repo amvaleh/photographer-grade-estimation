@@ -75,7 +75,7 @@ These are kept visible on purpose.
 
 - Photographers' images, profiles and identifiers are not included and must never be committed (`.gitignore` blocks `data/`, `models/`, CSV/NPZ/PT files).
 - Only `photographer_id` (an internal integer) was used as a key during experiments; no names, contact details or national ids were exported. Gender and city were exported to the local workspace but are not used by the final model.
-- A system that scores people can cause harm if misused. The deployed service is internal, advisory, keeps uploads in memory only, and does not rank named individuals.
+- A system that scores people can cause harm if misused. The deployed service is advisory and does not rank named individuals. Since October 2026 it stores the photos and results that users submit, behind a visible notice on the page, for review by the operator's staff; they are not published, are not part of this repository, and can be deleted on request.
 
 ## Reproducing on your own data
 
